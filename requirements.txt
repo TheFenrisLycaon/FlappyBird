@@ -5,3 +5,4 @@ pygame
 neat-python
 graphviz
 matplotlib
+pyqt5

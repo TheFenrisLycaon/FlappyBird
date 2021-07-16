@@ -1,3 +1,4 @@
+#! /home/fenris/Apps/anaconda3/bin/python3
 import os.path
 from datetime import timedelta
 from time import time
@@ -11,7 +12,7 @@ from Tubes import Tubes
 class App(Tk, Settings):
     __background_animation_speed = 720
     __bestScore = 0
-    __bird_descend_speed = 35
+    __bird_descend_speed = 100
     __buttons = []
     __playing = False
     __score = 0
